@@ -1,0 +1,86 @@
+.newPinDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Segoe UI", "Fira Sans", "Droid Sans";
+    color: #333;
+    padding-bottom: 20px;
+}
+
+.newPin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newPinImagePreview{
+    height: 300px;
+    border-radius: 12px;
+    border: 5px solid black;
+}
+
+.newPinForm {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.newPinUrlInput {
+    border: none;
+    padding-left: 10px;
+    width: 100%;
+    height: 40px;
+    cursor: text;
+    white-space: pre-wrap;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Segoe UI", "Fira Sans", "Droid Sans";
+    background: transparent;
+    border-bottom: 1px solid black;
+}
+
+
+    .newPinTitleInput {
+        border: none;
+        padding: 10px;
+        width: 100%;
+        height: 100px;
+        cursor: text;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: "Segoe UI", "Fira Sans", "Droid Sans";
+        background: transparent;
+        border-bottom: 1px solid black;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+.newPinSubmitButton {
+    margin-top: 30px;
+    background-color: rgb(204, 34, 34);
+    border: 0;
+    color: white;
+    border-radius: 30px;
+    font-size: 25px;
+    font-family: "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue";
+    padding: 12px;
+    transition: width 0.5s;
+    cursor: pointer;
+}
+
+.newPinSubmitButton:hover {
+    background-color: darkred;
+}
+
+.newPinLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    font-size: 25px;
+    font-family: "Segoe UI", "Fira Sans", "Droid Sans", "Helvetica Neue";
+    font-weight: 600;
+    color: rgb(96, 92, 92);
+}
